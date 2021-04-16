@@ -1284,6 +1284,10 @@ table.alt tfoot {
   }
 }
 
+.name {
+  text-transform: capitalize;
+}
+
 /* Poptrox Popup */
 
 .poptrox-overlay {
@@ -2222,7 +2226,7 @@ body.is-preload #main .thumb {
 }
 
 .product-price {
-  margin-bottom: 0.8em !important;
+  margin-bottom: 0.4em !important;
 }
 
 @media screen and (max-width: 736px) {
